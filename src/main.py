@@ -1,39 +1,20 @@
-import nltk
-import pymupdf
-import os
+import json
 
-
-def extract_text_from_pdf(pdf_path: str) -> str:
-    text = ""
-    try:
-        doc = pymupdf.open(pdf_path)
-        for page in doc:
-            text += page.get_text()
-    except Exception as e:
-        print(f"Error reading {pdf_path}: {e}")
-    return text
-
-
-def convert_pdfs_to_text(input_folder: str, output_folder: str) -> None:
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-
-    for filename in os.listdir(input_folder):
-        if filename.endswith(".pdf"):
-            pdf_path = os.path.join(input_folder, filename)
-            text = extract_text_from_pdf(pdf_path)
-
-            output_file = os.path.splitext(filename)[0] + ".txt"
-            output_path = os.path.join(output_folder, output_file)
-
-            with open(output_path, "w", encoding="utf-8") as text_file:
-                text_file.write(text)
-
+from src.text_segmentation.space_between_lines_segmentation import extract_paragraphs_by_line_spacing
 
 if __name__ == "__main__":
-    input_data_path = "../data"
-    output_data_path = "../results"
+    language = "DE"  # DE, RM, FR, IT
+    input_data_path = f"../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_{language}_web.pdf"
+    result = extract_paragraphs_by_line_spacing(input_data_path)
 
-    convert_pdfs_to_text(input_data_path, output_data_path)
+    output_list = []
+    for idx, content in enumerate(result, start=1):
+        output_list.append({
+            "id": idx,
+            "language": language,
+            "content": content
+        })
 
-    nltk.sent_tokenize("TODO", language='german')
+    output_file = f"../results/Seite_5-{language}.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(output_list, f, ensure_ascii=False, indent=4)

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "language": "DE",
+        "content": "5"
+    },
+    {
+        "id": 2,
+        "language": "DE",
+        "content": "Abstimmungsfrage Wollen Sie die Volksinitiative «Maximal 10 % des Einkommens für die Krankenkassenprämien (Prämien- Entlastungs-Initiative)» annehmen?"
+    },
+    {
+        "id": 3,
+        "language": "DE",
+        "content": "Empfehlung von Bundesrat und Parlament Nein Für Bundesrat und Parlament ist die Initiative mit jährlichen Mehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein Anreiz zur Dämpfung der Gesundheitskosten. Deshalb haben sie einen indirekten Gegenvorschlag ausgearbeitet, der die Prämien auch stärker verbilligt und zusätzlich einen kosten- dämpfenden Anreiz setzt."
+    },
+    {
+        "id": 4,
+        "language": "DE",
+        "content": "admin.ch/praemien-entlastungs-initiative"
+    },
+    {
+        "id": 5,
+        "language": "DE",
+        "content": "Empfehlung des Initiativkomitees Ja Mit der Prämien-Entlastungs-Initiative werden die Prämien gedeckelt und dürfen nicht mehr als zehn Prozent des verfügbaren Einkommens ausmachen. Laut dem Komitee schützt das nicht nur Personen mit tiefen Löhnen, sondern auch Familien, Rentner-Paare und Personen mit durchschnitt- lichen Einkommen."
+    },
+    {
+        "id": 6,
+        "language": "DE",
+        "content": "bezahlbare-praemien.ch"
+    },
+    {
+        "id": 7,
+        "language": "DE",
+        "content": "123 Nein 70 Ja Abstimmung im Nationalrat"
+    },
+    {
+        "id": 8,
+        "language": "DE",
+        "content": "Abstimmung im Ständerat 3 Enthaltungen"
+    },
+    {
+        "id": 9,
+        "language": "DE",
+        "content": "32 Nein 11 Ja 1 Enthaltung"
+    }
+]
