@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "language": "FR",
+        "content": "5"
+    },
+    {
+        "id": 2,
+        "language": "FR",
+        "content": "La question qui vous est posée Acceptez-vous l’initiative populaire « Maximum 10 % du revenu pour les primes d’assurance-maladie (initiative d’allègement des primes) » ?"
+    },
+    {
+        "id": 3,
+        "language": "FR",
+        "content": "Recommandation du Conseil fédéral et du Parlement Non Le Conseil fédéral et le Parlement estiment que l’initiative, qui coûtera plusieurs milliards de francs par année, est trop chère et qu’elle n’incite pas à maîtriser les coûts de la santé. C’est pourquoi ils lui opposent un contre-projet indirect qui a égale- ment pour objectif de réduire davantage les primes, mais tout en incitant à maîtriser les coûts."
+    },
+    {
+        "id": 4,
+        "language": "FR",
+        "content": "admin.ch/allegement-primes"
+    },
+    {
+        "id": 5,
+        "language": "FR",
+        "content": "Recommandation du comité d’initiative Oui L’initiative d’allègement des primes plafonnera ces der- nières à 10 % du revenu disponible. Le comité estime qu’elle protégera non seulement les personnes ayant un petit revenu, mais aussi les familles, les couples de retraités et les personnes ayant des revenus moyens."
+    },
+    {
+        "id": 6,
+        "language": "FR",
+        "content": "primes-abordables.ch"
+    },
+    {
+        "id": 7,
+        "language": "FR",
+        "content": "123 non 70 oui Vote du Conseil national"
+    },
+    {
+        "id": 8,
+        "language": "FR",
+        "content": "Vote du Conseil des États 3 abstentions"
+    },
+    {
+        "id": 9,
+        "language": "FR",
+        "content": "32 non 11 oui 1 abstention"
+    }
+]

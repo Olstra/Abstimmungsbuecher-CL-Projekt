@@ -7,7 +7,7 @@ from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextBox, LTTextLine, LAParams, LTChar
 
 
-def extract_headers_and_paragraphs(pdf_path: str) -> list[str]:
+def extract_by_font_difference(pdf_path: str) -> list[str]:
     laparams = LAParams()
     paragraphs = []
     current_paragraph = []
@@ -49,6 +49,6 @@ def extract_headers_and_paragraphs(pdf_path: str) -> list[str]:
 if __name__ == "__main__":
     input_data_path = "../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_DE_web.pdf"
     output_json_path = "../results/result.json"
-    output = extract_headers_and_paragraphs(input_data_path)
+    output = extract_by_font_difference(input_data_path)
 
     print(output)

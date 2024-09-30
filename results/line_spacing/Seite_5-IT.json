@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "language": "IT",
+        "content": "5"
+    },
+    {
+        "id": 2,
+        "language": "IT",
+        "content": "La domanda che figura sulla scheda Volete accettare l’iniziativa popolare «Al massimo il 10 per cento del reddito per i premi delle casse malati (Iniziativa per premi meno onerosi)»?"
+    },
+    {
+        "id": 3,
+        "language": "IT",
+        "content": "Raccomandazione del Consiglio federale e del Parlamento No Il Consiglio federale e il Parlamento ritengono che l’iniziati- va sia troppo onerosa in quanto comporta spese supplementari annuali nell’ordine di miliardi di franchi. Inoltre, non prevede alcun incentivo a frenare i costi sanitari. Pertanto hanno elabora- to un controprogetto indiretto che, come l’iniziativa, mira ad aumentare gli importi da destinare alla riduzione dei premi ma introduce anche un incentivo al contenimento dei costi."
+    },
+    {
+        "id": 4,
+        "language": "IT",
+        "content": "admin.ch/iniziativa-premi-meno-onerosi"
+    },
+    {
+        "id": 5,
+        "language": "IT",
+        "content": "Raccomandazione del Comitato d’iniziativa Sì L’iniziativa per premi meno onerosi intende fissare un tetto massimo ai premi in modo che non superino il 10 per cento del reddito disponibile. Si tratta di una misura che aiuta non soltanto le persone con salari bassi, ma anche le famiglie, le coppie pensionate e le persone con redditi medi."
+    },
+    {
+        "id": 6,
+        "language": "IT",
+        "content": "premi-accessibili.ch"
+    },
+    {
+        "id": 7,
+        "language": "IT",
+        "content": "123 no 70 sì Il voto del Consi- glio nazionale"
+    },
+    {
+        "id": 8,
+        "language": "IT",
+        "content": "Il voto del Consi- glio degli Stati 3 astensioni"
+    },
+    {
+        "id": 9,
+        "language": "IT",
+        "content": "32 no 11 sì 1 astensione"
+    }
+]
