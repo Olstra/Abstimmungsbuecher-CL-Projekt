@@ -1,0 +1,506 @@
+[
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.5278448462486267
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.37498947978019714
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.5018380880355835
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.3900454342365265
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.48067575693130493
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.3953155279159546
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.45587727427482605
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.35931527614593506
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.3864371180534363
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.39539197087287903
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.45076048374176025
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.3674795925617218
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.575998067855835
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.3871256709098816
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.5999293327331543
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.44499528408050537
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.4593375623226166
+    },
+    {
+        "lang1": "german",
+        "sentence1": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.42268967628479004
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.4969629645347595
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.4010138213634491
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.49340832233428955
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.44011440873146057
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.4656585156917572
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.42191365361213684
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.4805641174316406
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.34015148878097534
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.4913487434387207
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.4023187756538391
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.5063861608505249
+    },
+    {
+        "lang1": "german",
+        "sentence1": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.39871644973754883
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "similarity_score": 0.5601708889007568
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "similarity_score": 0.31264400482177734
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "similarity_score": 0.5317689180374146
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "similarity_score": 0.3732552230358124
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "similarity_score": 0.40916353464126587
+    },
+    {
+        "lang1": "german",
+        "sentence1": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "lang2": "french",
+        "sentence2": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "similarity_score": 0.43390196561813354
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.5278448462486267
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.45587727427482605
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.575998067855835
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.4969629645347595
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.4805641174316406
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Oui\nLinitiative dallgement des primes plafonnera ces der\nnires   \n du revenu disponible",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.5601708889007568
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.37498947978019714
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.35931527614593506
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.3871256709098816
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.4010138213634491
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.34015148878097534
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Le comit estime quelle \nprotgera non seulement les personnes ayant un petit revenu \nmais aussi les familles les couples de retraits et les personnes \nayant des revenus moyens",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.31264400482177734
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.5018380880355835
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.3864371180534363
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.5999293327331543
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.49340832233428955
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.4913487434387207
+    },
+    {
+        "lang1": "french",
+        "sentence1": "primesabordablesch\nAcceptezvous linitiative populaire \n \nMaximum  \n du revenu pour les \nprimes dassurancemaladie initiative \ndallgement des primes",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.5317689180374146
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.3900454342365265
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.39539197087287903
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.44499528408050537
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.44011440873146057
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.4023187756538391
+    },
+    {
+        "lang1": "french",
+        "sentence1": "La question qui \nvous est pose\nNon\nLe Conseil fdral et le Parlement estiment que linitiative \nqui cotera plusieurs milliards de francs par anne est trop chre \net quelle nincite pas  matriser les cots de la sant",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.3732552230358124
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.48067575693130493
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.45076048374176025
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.4593375623226166
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.4656585156917572
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.5063861608505249
+    },
+    {
+        "lang1": "french",
+        "sentence1": "Cest \npourquoi ils lui opposent un contreprojet indirect qui a gale\nment pour objectif de rduire davantage les primes mais tout \nen incitant  matriser les cots",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.40916353464126587
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "Ja\nMit der PrämienEntlastungsInitiative werden die \nPrämien gedeckelt und dürfen nicht mehr als zehn Prozent \ndes verfügbaren Einkommens ausmachen",
+        "similarity_score": 0.3953155279159546
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "Laut dem Komitee \nschützt das nicht nur Personen mit tiefen Löhnen sondern \nauch Familien RentnerPaare und Personen mit durchschnitt\nlichen Einkommen",
+        "similarity_score": 0.3674795925617218
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "bezahlbarepraemiench\nWollen Sie die Volksinitiative \nMaximal  \n des Einkommens für \ndie Krankenkassenprämien Prämien\nEntlastungsInitiative annehmen",
+        "similarity_score": 0.42268967628479004
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "Abstimmungsfrage\nNein\nFür Bundesrat und Parlament ist die Initiative mit jährlichen \nMehrkosten in Milliardenhöhe zu teuer und es fehlt ihr ein \nAnreiz zur Dämpfung der Gesundheitskosten",
+        "similarity_score": 0.42191365361213684
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "Deshalb haben \nsie einen indirekten Gegenvorschlag ausgearbeitet der die \nPrämien auch stärker verbilligt und zusätzlich einen kosten\ndämpfenden Anreiz setzt",
+        "similarity_score": 0.39871644973754883
+    },
+    {
+        "lang1": "french",
+        "sentence1": "adminchallegementprimes\nRecommandation \ndu Conseil fdral \net du Parlement\nRecommandation \ndu comit \ndinitiative\nVote du \nConseil national\nVote du \nConseil des tats\n  non\n  oui\n  abstentions\n  non\n  oui\n  abstention",
+        "lang2": "german",
+        "sentence2": "adminchpraemienentlastungsinitiative\nEmpfehlung von \nBundesrat und \nParlament\nEmpfehlung des \nInitiativkomitees\nAbstimmung \nim Nationalrat\nAbstimmung \nim Ständerat\n  Nein\n  Ja\n  Enthaltungen\n  Nein\n  Ja\n  Enthaltung",
+        "similarity_score": 0.43390196561813354
+    }
+]

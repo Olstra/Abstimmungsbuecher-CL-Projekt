@@ -6,7 +6,7 @@ from src.text_segmentation.textbox_segmentation import extract_text_boxes
 
 if __name__ == "__main__":
     language = "IT"  # DE, RM, FR, IT
-    input_data_path = f"../test_data/five_pagers/Seiten_24_bis_28-Erlaeuterungen_Juni_{language}_web.pdf"
+    input_data_path = f"../test_data/Erlaeuterungen_Juni_{language}_web.pdf"
     result = extract_paragraphs_by_line_spacing(input_data_path)
 
     output_list = []
@@ -17,6 +17,6 @@ if __name__ == "__main__":
             "content": content
         })
 
-    output_file = f"../results/line_spacing/Seiten_24_bis_28-{language}.json"
+    output_file = f"../results/line_spacing/01-Full-{language}.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_list, f, ensure_ascii=False, indent=4)
