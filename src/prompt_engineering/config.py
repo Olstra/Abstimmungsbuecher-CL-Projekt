@@ -12,7 +12,7 @@ def get_config_info():
     while True:
         if project_root in os.listdir():
             break
-        os.chdir('..')
+        os.chdir('../..')
     load_dotenv()
     return {
         'gpt-api-key': os.getenv('GPT_API_KEY')

@@ -1,8 +1,8 @@
 import json
 
-from src.text_segmentation.font_difference_segmentation import extract_by_font_difference
-from src.text_segmentation.space_between_lines_segmentation import extract_paragraphs_by_line_spacing
-from src.text_segmentation.textbox_segmentation import extract_text_boxes
+from src.pdf_metadata_analysis.font_difference_segmentation import extract_by_font_difference
+from src.pdf_metadata_analysis.space_between_lines_segmentation import extract_paragraphs_by_line_spacing
+from src.pdf_metadata_analysis.textbox_segmentation import extract_text_boxes
 
 if __name__ == "__main__":
     language = "IT"  # DE, RM, FR, IT
