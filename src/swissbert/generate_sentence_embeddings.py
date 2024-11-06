@@ -12,16 +12,6 @@ def generate_sentence_embedding(sentence, language):
 
     model.set_default_language(language)
 
-    # # Set adapter to specified language
-    # if "de" in language:
-    #     model.set_default_language("de_CH")
-    # if "fr" in language:
-    #     model.set_default_language("fr_CH")
-    # if "it" in language:
-    #     model.set_default_language("it_CH")
-    # if "rm" in language:
-    #     model.set_default_language("rm_CH")
-
     # Tokenize input sentence
     inputs = tokenizer(sentence, padding=True, truncation=True, return_tensors="pt", max_length=512)
 
