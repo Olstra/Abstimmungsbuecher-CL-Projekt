@@ -1,15 +1,26 @@
 import torch
-
 from transformers import AutoModel, AutoTokenizer
 
-model_name = "jgrosjean-mathesis/sentence-swissbert"
-model = AutoModel.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+from src.constants import SWISSBERT_MODEL_NAME
+
+# Load swissBERT for sentence embeddings model
+model = AutoModel.from_pretrained(SWISSBERT_MODEL_NAME)
+tokenizer = AutoTokenizer.from_pretrained(SWISSBERT_MODEL_NAME)
 
 
-def generate_sentence_embedding(sentence: str, language: str):
+def generate_sentence_embedding(sentence, language):
 
     model.set_default_language(language)
+
+    # # Set adapter to specified language
+    # if "de" in language:
+    #     model.set_default_language("de_CH")
+    # if "fr" in language:
+    #     model.set_default_language("fr_CH")
+    # if "it" in language:
+    #     model.set_default_language("it_CH")
+    # if "rm" in language:
+    #     model.set_default_language("rm_CH")
 
     # Tokenize input sentence
     inputs = tokenizer(sentence, padding=True, truncation=True, return_tensors="pt", max_length=512)

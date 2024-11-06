@@ -31,8 +31,8 @@ def extract_headers_and_paragraphs(pdf_path: str) -> (list[str], list[str]):
 
 
 if __name__ == "__main__":
-    input_data_path = "../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_RM_web.pdf"
-    output_json_path = "../results/result.json"
+    input_data_path = "../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_RM_web.pdf"
+    output_json_path = "results/result.json"
     headers, paragraphs = extract_headers_and_paragraphs(input_data_path)
 
     print("Headers:")

@@ -1,29 +1,35 @@
 import unittest
 
-from src.sentence_splitter import split_into_sentences
-from src.swissbert.extract_to_json import extract_to_json
-from src.swissbert.sentences_aligner import align_sentences
-from src.text_cleaner import clean_text
-from src.text_extractor import extract_text
+from src.swissbert.align_sentences import align_sentences
+from src.util.extract_to_json import write_sentences_to_json
+from src.util.parser import Parser
 
 
 class MyTestCase(unittest.TestCase):
     def test_align_de_and_rm(self):
+        parser = Parser()
+
         # DE
-        de_test_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_DE_web.pdf"
-        de_text = extract_text(de_test_path)
-        de_cleaned_text = clean_text(de_text)
-        de_sentences = split_into_sentences(de_cleaned_text)
+        de_data_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_DE_web.pdf"
+        de_sentences = parser.extract_text_from_pdf(de_data_path).clean_text().split_into_sentences()
 
         # RM
-        rm_test_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_RM_web.pdf"
-        rm_text = extract_text(rm_test_path)
-        rm_cleaned_text = clean_text(rm_text)
-        rm_sentences = split_into_sentences(rm_cleaned_text)
+        rm_data_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_RM_web.pdf"
+        rm_sentences = parser.extract_text_from_pdf(rm_data_path).clean_text().split_into_sentences()
 
-        result = align_sentences(rm_sentences, de_sentences)
+        # FR
+        fr_data_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_FR_web.pdf"
+        fr_sentences = parser.extract_text_from_pdf(fr_data_path).clean_text().split_into_sentences()
 
-        extract_to_json(result)
+        # IT
+        it_data_path = "../../../test_data/one_pagers/Seite_5-Erlaeuterungen_Juni_IT_web.pdf"
+        it_sentences = parser.extract_text_from_pdf(it_data_path).clean_text().split_into_sentences()
+
+        result = align_sentences("de", de_sentences, "rm", rm_sentences)
+        write_sentences_to_json(result, "de", "rm")
+
+        result = align_sentences("fr", fr_sentences, "it", it_sentences)
+        write_sentences_to_json(result, "fr", "it")
 
 
 if __name__ == '__main__':
