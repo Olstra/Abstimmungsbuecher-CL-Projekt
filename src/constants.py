@@ -1,5 +1,0 @@
-SWISSBERT_MODEL_NAME = 'jgrosjean-mathesis/sentence-swissbert'
-CH_DE = 'de_CH'
-CH_RM = 'rm_CH'
-CH_IT = 'it_CH'
-CH_FR = 'fr_CH'
