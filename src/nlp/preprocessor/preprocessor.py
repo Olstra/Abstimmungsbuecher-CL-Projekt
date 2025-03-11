@@ -2,6 +2,7 @@ import re
 
 
 class Preprocessor:
+    # make separate list per language
     ignored_words = [
         'ja', 'nein', 'enthaltung', 'enthaltungen',
         'oui', 'non', 'abstentions', 'abstention',

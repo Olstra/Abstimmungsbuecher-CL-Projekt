@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-project_root = "Abstimmungsbuecher-CL-Projekt"
+from src.common.data_paths import PROJECT_ROOT
 
 
 def get_config_info():
@@ -10,7 +10,8 @@ def get_config_info():
     :return: The Path to the current config file
     """
     while True:
-        if project_root in os.listdir():
+        if PROJECT_ROOT in os.listdir():
+            os.chdir(PROJECT_ROOT)
             break
         os.chdir('..')
     load_dotenv()

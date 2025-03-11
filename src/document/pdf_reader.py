@@ -1,5 +1,3 @@
-from typing import Optional
-
 try:
     import fitz  # PyMuPDF
 except ImportError:

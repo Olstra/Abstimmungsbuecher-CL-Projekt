@@ -8,50 +8,29 @@ from src.nlp.splitter.sentence_splitter import SentenceSplitter
 
 
 def main():
-    # define data to be used
-    base_path = "Abstimmungsbuecher-CL-Projekt/data/test_samples"
 
-    # One page sample
-    one_page_path = "/one_pagers/Seite_5-Erlaeuterungen_Juni"
-    de_data_path = f"{base_path}{one_page_path}_DE_web.pdf"
-    rm_data_path = f"{base_path}{one_page_path}_RM_web.pdf"
-    fr_data_path = f"{base_path}{one_page_path}_FR_web.pdf"
-    it_data_path = f"{base_path}{one_page_path}_IT_web.pdf"
+    # 1 page
+    base_path = "data/test_samples/one_pagers/Seite_5-Erlaeuterungen_Juni"
+    # 5 pages
+    # base_path = "data/test_samples/five_pagers/Erste_5-Erlaeuterungen_Juni"
+    # FULL pdfs
+    # base_path = "data/pdf/Erlaeuterungen_Juni"
 
-    # # 5 pages sample
-    # five_pages_path = "/five_pagers/Erste_5-Erlaeuterungen_Juni"
-    # de_data_path = f"{base_path}{five_pages_path}_DE_web.pdf"
-    # rm_data_path = f"{base_path}{five_pages_path}_RM_web.pdf"
-    # fr_data_path = f"{base_path}{five_pages_path}_FR_web.pdf"
-    # it_data_path = f"{base_path}{five_pages_path}_IT_web.pdf"
+    data_paths = {
+        lang_code: f"{base_path}_{lang}_web.pdf"
+        for lang, lang_code in ch_langs.__dict__.items()
+    }
 
-    # # full pdfs
-    # de_data_path = "../../abstimmungsbuecher/Erlaeuterungen_Juni_DE_web.pdf"
-    # rm_data_path = "../../abstimmungsbuecher/Erlaeuterungen_Juni_RM_web.pdf"
-    # fr_data_path = "../../abstimmungsbuecher/Erlaeuterungen_Juni_FR_web.pdf"
-    # it_data_path = "../../abstimmungsbuecher/Erlaeuterungen_Juni_IT_web.pdf"
-
-    pdf_reader = PDFReader()
+    reader = PDFReader()
     preprocessor = Preprocessor()
-    de_text = preprocessor.preprocess(pdf_reader.extract_text(de_data_path))
-    rm_text = preprocessor.preprocess(pdf_reader.extract_text(rm_data_path))
-    fr_text = preprocessor.preprocess(pdf_reader.extract_text(fr_data_path))
-    it_text = preprocessor.preprocess(pdf_reader.extract_text(it_data_path))
-
     splitter = SentenceSplitter()
-    de_sentences = splitter.split_into_sentences(de_text, ch_langs.DE)
-    rm_sentences = splitter.split_into_sentences(rm_text, ch_langs.RM)
-    fr_sentences = splitter.split_into_sentences(fr_text, ch_langs.FR)
-    it_sentences = splitter.split_into_sentences(it_text, ch_langs.IT)
 
-    result = SentenceAlignerCosine().align_sentences(
-        CHSentencesLists({
-            ch_langs.DE: de_sentences,
-            ch_langs.RM: rm_sentences,
-            ch_langs.IT: it_sentences,
-            ch_langs.FR: fr_sentences
-        })
-    )
+    sentences_by_lang = CHSentencesLists({
+        lang: splitter.split_into_sentences(preprocessor.preprocess(reader.extract_text(path)), lang)
+        for lang, path in data_paths.items()
+    })
+
+    result = SentenceAlignerCosine().align_sentences(sentences_by_lang)
 
     for lang in ch_langs.__dict__.values():
         write_to_json(result.get[lang], lang)

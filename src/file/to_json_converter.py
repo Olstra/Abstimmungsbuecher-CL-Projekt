@@ -1,6 +1,6 @@
 import json
 
-output_dir = "Abstimmungsbuecher-CL-Projekt/eval/results"
+from src.common.data_paths import JSON_OUTPUT_DIR
 
 
 def write_to_json(sentences: list[str], lang: str) -> None:
@@ -11,7 +11,7 @@ def write_to_json(sentences: list[str], lang: str) -> None:
             "content": content
         })
 
-    output_file = f"{output_dir}/output-test-{lang}.json"
+    output_file = f"{JSON_OUTPUT_DIR}/output-test-{lang}.json"
 
     with open(output_file, "w", encoding="utf-8") as file:
         json.dump(output_list, file, ensure_ascii=False, indent=4)

@@ -14,6 +14,7 @@ class SentenceAlignerCosine:
         self.embedder = SwissbertEmbedder()
 
     def align_sentences(self, all_sentences: CHSentencesLists) -> CHSentencesLists:
+        # TODO: vorwissen benutzen, sätze sind immer der Reiehe nach, 1. satz muss nicht mit letztem satz aligniert werden etc.
         for lang in ch_langs.__dict__.values():
             # TODO: line too long, make normal loop instead of list comprh.
             self.all_embeddings[lang] = [SentenceEmbedding(s, self.embedder.generate_embeddings(s, lang)) for s in all_sentences.get[lang]]
