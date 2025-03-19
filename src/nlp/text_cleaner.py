@@ -37,4 +37,17 @@ class TextCleaner:
     def remove_non_word_and_non_whitespace_chars(self):
         self.text = self.text.replace("\u00AD", "")  # remove soft-hyphen delimiter
         self.text = self.text.replace('\b', '')
-    
+
+
+def clean_up_line_breaks(text: list[str]) -> list[str]:
+    result = []
+    previous = None
+    for sentence in text:
+        if previous:
+            sentence = previous + sentence
+            previous = None
+        if sentence.endswith('-'):
+            previous = sentence[:-1]
+            continue
+        result.append(sentence)
+    return result

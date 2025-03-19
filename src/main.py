@@ -39,4 +39,13 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    #main()
+    base_path = "data/test_samples/one_pagers/Seite_5-Erlaeuterungen_Juni"
+    data_paths = {
+        lang: f"{base_path}_{lang}_web.pdf"
+        for lang, lang_code in CH_LANG_CODES.items()
+    }
+    for lang, path in data_paths.items():
+        text = extract_text_from_pdf(path)
+        print(text)
+        print("=====================================")
