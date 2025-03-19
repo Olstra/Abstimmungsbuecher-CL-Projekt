@@ -1,10 +1,10 @@
-from src.common.ch_languages import ch_langs
-from src.document.pdf_reader import PDFReader
-from src.file.to_json_converter import write_to_json
-from src.model.CHSentencesLists import CHSentencesLists
-from src.nlp.aligner.cosine_similarity import SentenceAlignerCosine
-from src.nlp.preprocessor.preprocessor import Preprocessor
-from src.nlp.splitter.sentence_splitter import SentenceSplitter
+from src.common.ch_languages import CH_LANG_CODES
+from src.file_handling.text_extractor import extract_text_from_pdf
+from src.file_handling.to_json_converter import write_to_json
+from src.nlp.aligner import Aligner
+from src.nlp.text_cleaner import TextCleaner
+from src.nlp.splitter import SentenceSplitter
+from src.nlp.embedder import Embedder
 
 
 def main():
@@ -12,28 +12,30 @@ def main():
     # 1 page
     base_path = "data/test_samples/one_pagers/Seite_5-Erlaeuterungen_Juni"
     # 5 pages
-    # base_path = "data/test_samples/five_pagers/Erste_5-Erlaeuterungen_Juni"
+    #base_path = "data/test_samples/five_pagers/Erste_5-Erlaeuterungen_Juni"
     # FULL pdfs
-    # base_path = "data/pdf/Erlaeuterungen_Juni"
+    #base_path = "data/pdf/Erlaeuterungen_Juni"
 
     data_paths = {
-        lang_code: f"{base_path}_{lang}_web.pdf"
-        for lang, lang_code in ch_langs.__dict__.items()
+        lang: f"{base_path}_{lang}_web.pdf"
+        for lang, lang_code in CH_LANG_CODES.items()
     }
 
-    reader = PDFReader()
-    preprocessor = Preprocessor()
+    preprocessor = TextCleaner()
     splitter = SentenceSplitter()
 
-    sentences_by_lang = CHSentencesLists({
-        lang: splitter.split_into_sentences(preprocessor.preprocess(reader.extract_text(path)), lang)
-        for lang, path in data_paths.items()
-    })
+    # main process
+    sentences_by_lang = {}
+    for lang, path in data_paths.items():
+        text = preprocessor.preprocess(extract_text_from_pdf(path))
+        sentences_by_lang[lang] = splitter.split_into_sentences(text, lang)
 
-    result = SentenceAlignerCosine().align_sentences(sentences_by_lang)
+    embeddings = Embedder().generate_embeddings_for_all_langs(sentences_by_lang)
 
-    for lang in ch_langs.__dict__.values():
-        write_to_json(result.get[lang], lang)
+    result = Aligner().align_sentences(embeddings)
+
+    for lang, lang_code in CH_LANG_CODES.items():
+        write_to_json(result[lang], lang)
 
 
 if __name__ == "__main__":

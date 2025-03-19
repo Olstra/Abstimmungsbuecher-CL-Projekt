@@ -1,6 +1,6 @@
 import json
 
-from src.nlp.sentence_splitter.pdf_metadata_analysis.space_between_lines_segmentation import extract_paragraphs_by_line_spacing
+from src.nlp.splitter.pdf_metadata_analysis.space_between_lines_segmentation import extract_paragraphs_by_line_spacing
 
 if __name__ == "__main__":
     language = "IT"  # DE, RM, FR, IT

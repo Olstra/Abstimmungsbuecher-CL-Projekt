@@ -1,7 +1,7 @@
 import re
 
 
-class Preprocessor:
+class TextCleaner:
     # make separate list per language
     ignored_words = [
         'ja', 'nein', 'enthaltung', 'enthaltungen',
